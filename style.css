@@ -1,0 +1,143 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Ruge Boogie', cursive;
+    background-color: #fce4ec; /* Fondo rosa claro para toda la página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Sección de Inicio */
+.inicio {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffc1e3; /* Fondo rosa más oscuro para la sección */
+}
+
+.inicio__title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inicio__options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.option {
+    text-align: center;
+}
+
+.option__image {
+    width: 250px; /* Tamaño fijo para las imágenes de opciones */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Efecto hover suave */
+}
+
+.option__image:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+}
+
+.option__title {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Servicio a Domicilio */
+.service {
+    background-color: #ccf2ff; /* Fondo azul claro */
+    padding: 40px;
+}
+
+.service__title {
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #33b5e5;
+}
+
+.service__description {
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service__images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-add-cart {
+    background-color: #33b5e5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-add-cart:hover {
+    background-color: #0288d1;
+}
+
+/* Manualidades */
+.crafts {
+    background-color: #ffccff; /* Fondo rosa suave */
+    padding: 40px;
+}
+
+.crafts__title {
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #d63384;
+}
+
+.crafts__description {
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.crafts__images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crafts__image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
